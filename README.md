@@ -1,6 +1,10 @@
 # PasswordViewDemo
 Sample Demo explaining PasswordView Component recently added in Google Design Guidelines  [here](https://www.google.com/design/spec/components/text-fields.html#text-fields-password-input).
 
+# Screenshot
+
+<img src="https://github.com/BhaveshPatadiya/PasswordViewDemo/blob/master/screenshot.png"  width="400px" />
+
 # HOW TO USE :
 
     <com.bhavesh.passwordview.PasswordView
