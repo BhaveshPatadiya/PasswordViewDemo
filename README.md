@@ -5,4 +5,4 @@ Available in Below Gradle Dependency:
 
 HOW TO USE :
 
-compile 'com.bhavesh.passwordview:password-view:1.0.0'**
+compile 'com.bhavesh.passwordview:password-view:1.0.0'
