@@ -1,0 +1,37 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.2"
+
+    defaultConfig {
+        applicationId "com.bhavesh.passwordviewdemo"
+        minSdkVersion 15
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+//Currently its not available in jCenter(Would be available in next few hours from now :P) So, using my own bintray repository for now.
+repositories {
+    maven {
+        url 'https://dl.bintray.com/bhaveshpatadiya/maven/'
+    }
+}
+
+dependencies {
+    compile 'com.android.support:appcompat-v7:23.2.1'
+    compile 'com.android.support:design:23.2.1'
+
+
+    //Define Gradle file
+    compile 'com.bhavesh.passwordview:password-view:1.0.0'
+
+}
