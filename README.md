@@ -19,10 +19,4 @@ Sample Demo explaining PasswordView Component recently added in Google Design Gu
 
     compile 'com.bhavesh.passwordview:password-view:1.0.0'
 
-# Coming soon to a jcenter near you ...
-
-*in the meantime you can use maven
-          { 
-              url 'https://dl.bintray.com/bhaveshpatadiya/maven' 
-          }
-in your top-level build.gradle
+# This gradle dependency is available in *jCenter*
