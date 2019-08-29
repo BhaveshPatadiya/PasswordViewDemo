@@ -1,5 +1,5 @@
 # PasswordViewDemo
-Sample Demo explaining PasswordView Component recently added in Google Design Guidelines  [here](https://www.google.com/design/spec/components/text-fields.html#text-fields-password-input).
+Android Library SDK for integrating PasswordView Component recently added in Google Design Guidelines  [here](https://www.google.com/design/spec/components/text-fields.html#text-fields-password-input).
 
 # Screenshot
 
